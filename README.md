@@ -6,10 +6,10 @@
 
 커밋해서  내용을 바꾸면 몇 초뒤   바뀜
 
-/ # C:\kubernetes>kubectl run busybox --image=busybox --restart=Never --rm -it sh
+ # C:\kubernetes>kubectl run busybox --image=busybox --restart=Never --rm -it sh
 
-/ # wget -q -O - http://192.168.22.73
+# wget -q -O - http://192.168.22.73
 <h1>hi<h1>
-/ # wget -q -O - http://192.168.22.73
+# wget -q -O - http://192.168.22.73
 <h1>hi  -->   test 2<h1>
 
